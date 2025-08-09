@@ -1,0 +1,5 @@
+{
+  "name": "db mlops dev",
+  "build": {"dockerfile": "Dockerfile"},
+  "postStartCommand": "pre-commit install --config .pre-commit-config.yaml"
+}
