@@ -1,0 +1,10 @@
+{
+  "name": "db mlops dev",
+  "build": {"dockerfile": "Dockerfile"},
+  "postStartCommand": "pre-commit install --config .pre-commit-config.yaml",
+  "customizations": {
+    "vscode": {
+      "extensions":["databricks.databricks"]
+    }
+  }
+}
